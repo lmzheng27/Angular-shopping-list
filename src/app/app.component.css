@@ -1,0 +1,5 @@
+.show-grid [class^=col-]{
+	color: #660000;
+	border: 1px solid grey;
+
+}

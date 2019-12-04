@@ -1,0 +1,14 @@
+<app-header
+(componentSelect)= "cSelected($event)"></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-recipe
+      *ngIf = "componentDisplay ==='recipe'"
+      ></app-recipe>
+      <app-shoppinglist
+      *ngIf = "componentDisplay !=='recipe'"></app-shoppinglist>
+    </div>
+  </div>
+</div>   
+
